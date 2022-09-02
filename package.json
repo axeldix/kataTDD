@@ -1,0 +1,23 @@
+{
+  "name": "katatdd",
+  "version": "1.0.0",
+  "description": "Kata practice for a function that converts arabic numbers to roman numbers using TDD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axeldix/kataTDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axeldix/kataTDD/issues"
+  },
+  "homepage": "https://github.com/axeldix/kataTDD#readme",
+  "dependencies": {
+    "jest": "^29.0.1"
+  }
+}
