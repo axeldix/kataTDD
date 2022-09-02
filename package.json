@@ -2,9 +2,9 @@
   "name": "katatdd",
   "version": "1.0.0",
   "description": "Kata practice for a function that converts arabic numbers to roman numbers using TDD.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
