@@ -1,5 +1,5 @@
-describe("Converts arabic to roman", () => {
-  it("should convert 1 to I", () => {
-    expect(convertArabicToRoman(1)).toBe("I");
+describe("Test Calculator", () => {
+  it("should sum 1 + 1 and return 2  ", () => {
+    expect(calculate(1, 1)).toBe("2");
   });
 });
