@@ -25,11 +25,11 @@ describe("Converts arabic to roman", () => {
   });
 });
 
-// describe("Converts arabic to roman", () => {
-//   it("should convert 10 to X", () => {
-//     expect(convertArabicToRoman(10)).toBe("X");
-//   });
-// });
+describe("Converts arabic to roman", () => {
+  it("should convert 10 to X", () => {
+    expect(convertArabicToRoman(10)).toBe("X");
+  });
+});
 
 // describe("Converts arabic to roman", () => {
 //   it("should convert 4 to IV", () => {
