@@ -4,7 +4,7 @@
   "description": "Kata practice for a function that converts arabic numbers to roman numbers using TDD.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
