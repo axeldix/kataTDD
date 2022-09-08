@@ -19,11 +19,11 @@ describe("Converts arabic to roman", () => {
   });
 });
 
-// describe("Converts arabic to roman", () => {
-//   it("should convert 5 to V", () => {
-//     expect(convertArabicToRoman(5)).toBe("V");
-//   });
-// });
+describe("Converts arabic to roman", () => {
+  it("should convert 5 to V", () => {
+    expect(convertArabicToRoman(5)).toBe("V");
+  });
+});
 
 // describe("Converts arabic to roman", () => {
 //   it("should convert 10 to X", () => {

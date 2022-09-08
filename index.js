@@ -1,5 +1,6 @@
 const convertArabicToRoman = (arabicNumber)=>{
-   return "I".repeat(arabicNumber)
+
+   return arabicNumber > 3 ? 'V' :  "I".repeat(arabicNumber)
 }
 
 module.exports = convertArabicToRoman
