@@ -17,9 +17,9 @@ describe("Converts arabic to roman", () => {
     expect(convertArabicToRoman(5)).toBe("V");
   });
 
-  // it("should convert 10 to X", () => {
-  //   expect(convertArabicToRoman(10)).toBe("X");
-  // });
+  it("should convert 10 to X", () => {
+    expect(convertArabicToRoman(10)).toBe("X");
+  });
 
   // it("should convert 4 to IV", () => {
   //   expect(convertArabicToRoman(4)).toBe("IV");
