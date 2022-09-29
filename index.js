@@ -12,12 +12,13 @@ const convertArabicToRoman = (numero_ingresado) => {
         if(numero_ingresado == 5){
             numeros_romanos += "V"
             numero_ingresado -= 5;
-        } else{
+        }else{
             numeros_romanos += "I"
             numero_ingresado--;
         }
     }
-    return numeros_romanos
+    return numeros_romanos.replace("IIII", "IV")
+
 }
 
 
