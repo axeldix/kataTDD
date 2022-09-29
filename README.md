@@ -23,3 +23,21 @@ If pass number 7 as a parameter to the function should return 'VII'
 If pass number 8 as a parameter to the function should return 'VIII'
 ## Test 10
 If pass number 9 as a parameter to the function should return 'IX'
+## Test 11
+If pass number 10 as a parameter to the function should return 'X'
+## Test 12
+If pass number 50 as a parameter to the function should return 'L'
+## Test 13
+If pass number 100 as a parameter to the function should return 'C'
+## Test 13
+If pass number 200 as a parameter to the function should return 'CC'
+## Test 14
+If pass number 400 as a parameter to the function should return 'CD'
+## Test 15
+If pass number 500 as a parameter to the function should return 'D'
+## Test 16
+If pass number 900 as a parameter to the function should return 'CM'
+## Test 17
+If pass number 1000 as a parameter to the function should return 'M'
+## Test 18
+If pass number 1903 as a parameter to the function should return 'MCMIII'
