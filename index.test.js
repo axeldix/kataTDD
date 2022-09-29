@@ -25,9 +25,9 @@ describe("Converts arabic to roman", () => {
     expect(convertArabicToRoman(4)).toBe("IV");
   });
 
-  // it("should convert 6 to VI", () => {
-  //   expect(convertArabicToRoman(6)).toBe("VI");
-  // });
+  it("should convert 6 to VI", () => {
+    expect(convertArabicToRoman(6)).toBe("VI");
+  });
 
   // it("should convert 7 to VII", () => {
   //   expect(convertArabicToRoman(7)).toBe("VII");
