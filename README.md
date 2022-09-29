@@ -3,7 +3,6 @@ Kata practice for a function that converts arabic numbers to roman numbers using
 
 # Acceptance Criteria
 
-
 ## Test 1
 - If pass number 1 as a parameter to the function should return 'I'
 
@@ -12,8 +11,10 @@ Kata practice for a function that converts arabic numbers to roman numbers using
 
 ## Test 3
 - If pass number 3 as a parameter to the function should return 'III'
+
 ## Test 4
 - If pass number 5 as a parameter to the function should return 'V'
+
 ## Test 5
 - If pass number 10 as a parameter to the function should return 'X'
 ## Test 6
