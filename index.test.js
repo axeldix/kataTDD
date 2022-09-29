@@ -9,9 +9,9 @@ describe("Converts arabic to roman", () => {
     expect(convertArabicToRoman(2)).toBe("II");
   });
 
-  // it("should convert 3 to III", () => {
-  //   expect(convertArabicToRoman(3)).toBe("III");
-  // });
+  it("should convert 3 to III", () => {
+    expect(convertArabicToRoman(3)).toBe("III");
+  });
 
   // it("should convert 5 to V", () => {
   //   expect(convertArabicToRoman(5)).toBe("V");
