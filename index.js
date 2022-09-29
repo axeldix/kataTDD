@@ -1,13 +1,11 @@
 
 const convertArabicToRoman = (numero_ingresado) => { 
-
-    if(numero_ingresado == 1){
-        return "I"
-    } else if(numero_ingresado == 2){
-        return "II"
-    } else{
-        return "III"
+    let numeros_romanos = ""
+    while (numero_ingresado > 0){
+        numeros_romanos += "I"
+        numero_ingresado--;
     }
+    return numeros_romanos
 }
 
 
