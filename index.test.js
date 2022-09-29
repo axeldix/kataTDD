@@ -5,9 +5,9 @@ describe("Converts arabic to roman", () => {
     expect(convertArabicToRoman(1)).toBe("I");
   });
 
-  // it("should convert 2 to II", () => {
-  //   expect(convertArabicToRoman(2)).toBe("II");
-  // });
+  it("should convert 2 to II", () => {
+    expect(convertArabicToRoman(2)).toBe("II");
+  });
 
   // it("should convert 3 to III", () => {
   //   expect(convertArabicToRoman(3)).toBe("III");

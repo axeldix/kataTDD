@@ -1,8 +1,11 @@
 
 const convertArabicToRoman = (numero_ingresado) => { 
 
-    
-    return "I"
+    if(numero_ingresado == 1){
+        return "I"
+    } else{
+        return "II"
+    }
 }
 
 
